@@ -121,8 +121,8 @@ function App() {
   return (
     <main>
       <header>
-        <h1>精灵查询系统</h1>
-        <p className="subtitle">基于体型和重量精准定位洛克王国精灵 (纯前端静态版本)</p>
+        <h1>精灵蛋查询</h1>
+        <p className="subtitle">基于体型和重量定位精灵</p>
       </header>
 
       <section className="search-card">
