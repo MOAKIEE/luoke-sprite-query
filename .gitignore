@@ -4,7 +4,7 @@ frontend/node_modules/
 
 # Cloudflare / Build
 .wrangler/
-data.json
+
 frontend/dist/
 
 # Env

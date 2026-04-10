@@ -1,0 +1,1172 @@
+[
+  {
+    "band": "0-1",
+    "index": 1,
+    "name": "小灵面",
+    "sizeRange": {
+      "min": 0.17,
+      "max": 0.2
+    },
+    "weightRange": {
+      "min": 0.038,
+      "max": 0.05
+    }
+  },
+  {
+    "band": "0-1",
+    "index": 2,
+    "name": "蒲公英",
+    "sizeRange": {
+      "min": 0.14,
+      "max": 0.17
+    },
+    "weightRange": {
+      "min": 0.05,
+      "max": 0.08
+    }
+  },
+  {
+    "band": "0-1",
+    "index": 3,
+    "name": "旋叶虫",
+    "sizeRange": {
+      "min": 0.04,
+      "max": 0.06
+    },
+    "weightRange": {
+      "min": 0.057,
+      "max": 0.09
+    }
+  },
+  {
+    "band": "0-1",
+    "index": 4,
+    "name": "逗逗",
+    "sizeRange": {
+      "min": 0.13,
+      "max": 0.15
+    },
+    "weightRange": {
+      "min": 0.27,
+      "max": 0.28
+    }
+  },
+  {
+    "band": "0-1",
+    "index": 5,
+    "name": "菇菇丁",
+    "sizeRange": {
+      "min": 0.11,
+      "max": 0.15
+    },
+    "weightRange": {
+      "min": 0.38,
+      "max": 0.48
+    }
+  },
+  {
+    "band": "0-1",
+    "index": 6,
+    "name": "豆丁鱼",
+    "sizeRange": {
+      "min": 0.13,
+      "max": 0.18
+    },
+    "weightRange": {
+      "min": 0.44,
+      "max": 0.59
+    }
+  },
+  {
+    "band": "0-1",
+    "index": 7,
+    "name": "小鹅",
+    "sizeRange": {
+      "min": 0.11,
+      "max": 0.13
+    },
+    "weightRange": {
+      "min": 0.49,
+      "max": 0.7
+    }
+  },
+  {
+    "band": "0-1",
+    "index": 8,
+    "name": "地鼠",
+    "sizeRange": {
+      "min": 0.2,
+      "max": 0.26
+    },
+    "weightRange": {
+      "min": 0.64,
+      "max": 0.88
+    }
+  },
+  {
+    "band": "0-1",
+    "index": 9,
+    "name": "哭哭菇",
+    "sizeRange": {
+      "min": 0.14,
+      "max": 0.2
+    },
+    "weightRange": {
+      "min": 0.71,
+      "max": 1.23
+    }
+  },
+  {
+    "band": "0-1",
+    "index": 10,
+    "name": "小草虫",
+    "sizeRange": {
+      "min": 0.2,
+      "max": 0.26
+    },
+    "weightRange": {
+      "min": 0.75,
+      "max": 1.14
+    }
+  },
+  {
+    "band": "0-1",
+    "index": 11,
+    "name": "闪电环",
+    "sizeRange": {
+      "min": 0.16,
+      "max": 0.19
+    },
+    "weightRange": {
+      "min": 0.89,
+      "max": 1.2
+    }
+  },
+  {
+    "band": "0-1",
+    "index": 12,
+    "name": "螺旋怕怕",
+    "sizeRange": {
+      "min": 0.15,
+      "max": 0.17
+    },
+    "weightRange": {
+      "min": 0.83,
+      "max": 1.32
+    }
+  },
+  {
+    "band": "1-1.8",
+    "index": 1,
+    "name": "公平鸽",
+    "sizeRange": {
+      "min": 0.2,
+      "max": 0.23
+    },
+    "weightRange": {
+      "min": 0.99,
+      "max": 1.29
+    }
+  },
+  {
+    "band": "1-1.8",
+    "index": 2,
+    "name": "花怨鳗",
+    "sizeRange": {
+      "min": 0.25,
+      "max": 0.27
+    },
+    "weightRange": {
+      "min": 1.01,
+      "max": 1.38
+    }
+  },
+  {
+    "band": "1-1.8",
+    "index": 3,
+    "name": "刺轮砣",
+    "sizeRange": {
+      "min": 0.09,
+      "max": 0.13
+    },
+    "weightRange": {
+      "min": 1.06,
+      "max": 1.49
+    }
+  },
+  {
+    "band": "1-1.8",
+    "index": 4,
+    "name": "伊贝尔",
+    "sizeRange": {
+      "min": 0.19,
+      "max": 0.26
+    },
+    "weightRange": {
+      "min": 1.19,
+      "max": 1.65
+    }
+  },
+  {
+    "band": "1-1.8",
+    "index": 5,
+    "name": "毛毛",
+    "sizeRange": {
+      "min": 0.14,
+      "max": 0.19
+    },
+    "weightRange": {
+      "min": 1.23,
+      "max": 1.78
+    }
+  },
+  {
+    "band": "1-1.8",
+    "index": 6,
+    "name": "海枝枝",
+    "sizeRange": {
+      "min": 0.32,
+      "max": 0.35
+    },
+    "weightRange": {
+      "min": 1.24,
+      "max": 2.5
+    }
+  },
+  {
+    "band": "1-1.8",
+    "index": 7,
+    "name": "恶魔叮",
+    "sizeRange": {
+      "min": 0.17,
+      "max": 0.21
+    },
+    "weightRange": {
+      "min": 1.26,
+      "max": 1.49
+    }
+  },
+  {
+    "band": "1-1.8",
+    "index": 8,
+    "name": "绿翼鸟",
+    "sizeRange": {
+      "min": 0.21,
+      "max": 0.22
+    },
+    "weightRange": {
+      "min": 1.27,
+      "max": 1.47
+    }
+  },
+  {
+    "band": "1-1.8",
+    "index": 9,
+    "name": "优优",
+    "sizeRange": {
+      "min": 0.18,
+      "max": 0.21
+    },
+    "weightRange": {
+      "min": 1.28,
+      "max": 1.48
+    }
+  },
+  {
+    "band": "1-1.8",
+    "index": 10,
+    "name": "小电企鹅",
+    "sizeRange": {
+      "min": 0.19,
+      "max": 0.23
+    },
+    "weightRange": {
+      "min": 1.3,
+      "max": 2
+    }
+  },
+  {
+    "band": "1-1.8",
+    "index": 11,
+    "name": "号儿鱼",
+    "sizeRange": {
+      "min": 0.13,
+      "max": 0.17
+    },
+    "weightRange": {
+      "min": 1.4,
+      "max": 2.02
+    }
+  },
+  {
+    "band": "1-1.8",
+    "index": 12,
+    "name": "格兰种子",
+    "sizeRange": {
+      "min": 0.19,
+      "max": 0.22
+    },
+    "weightRange": {
+      "min": 1.49,
+      "max": 1.91
+    }
+  },
+  {
+    "band": "1-1.8",
+    "index": 13,
+    "name": "小黑猫",
+    "sizeRange": {
+      "min": 0.25,
+      "max": 0.27
+    },
+    "weightRange": {
+      "min": 1.5,
+      "max": 1.78
+    }
+  },
+  {
+    "band": "1-1.8",
+    "index": 14,
+    "name": "果冻",
+    "sizeRange": {
+      "min": 0.13,
+      "max": 0.15
+    },
+    "weightRange": {
+      "min": 1.55,
+      "max": 2.23
+    }
+  },
+  {
+    "band": "1-1.8",
+    "index": 15,
+    "name": "一窝蜂",
+    "sizeRange": {
+      "min": 0.17,
+      "max": 0.22
+    },
+    "weightRange": {
+      "min": 1.56,
+      "max": 2.16
+    }
+  },
+  {
+    "band": "1-1.8",
+    "index": 16,
+    "name": "小夜",
+    "sizeRange": {
+      "min": 0.23,
+      "max": 0.29
+    },
+    "weightRange": {
+      "min": 1.62,
+      "max": 2.73
+    }
+  },
+  {
+    "band": "1-1.8",
+    "index": 17,
+    "name": "奇丽草",
+    "sizeRange": {
+      "min": 0.18,
+      "max": 0.21
+    },
+    "weightRange": {
+      "min": 1.65,
+      "max": 2.06
+    }
+  },
+  {
+    "band": "1-1.8",
+    "index": 18,
+    "name": "乖乖鸽",
+    "sizeRange": {
+      "min": 0.22,
+      "max": 0.27
+    },
+    "weightRange": {
+      "min": 1.66,
+      "max": 2.11
+    }
+  },
+  {
+    "band": "1-1.8",
+    "index": 19,
+    "name": "可立鸡",
+    "sizeRange": {
+      "min": 0.17,
+      "max": 0.22
+    },
+    "weightRange": {
+      "min": 1.66,
+      "max": 2.68
+    }
+  },
+  {
+    "band": "1-1.8",
+    "index": 20,
+    "name": "蹦蹦种子",
+    "sizeRange": {
+      "min": 0.22,
+      "max": 0.27
+    },
+    "weightRange": {
+      "min": 1.69,
+      "max": 2.12
+    }
+  },
+  {
+    "band": "1-1.8",
+    "index": 21,
+    "name": "斑斑",
+    "sizeRange": {
+      "min": 0.2,
+      "max": 0.25
+    },
+    "weightRange": {
+      "min": 1.69,
+      "max": 2.46
+    }
+  },
+  {
+    "band": "1-1.8",
+    "index": 22,
+    "name": "菊花梨",
+    "sizeRange": {
+      "min": 0.3,
+      "max": 0.3
+    },
+    "weightRange": {
+      "min": 1.73,
+      "max": 1.73
+    }
+  },
+  {
+    "band": "1-1.8",
+    "index": 23,
+    "name": "奔波鼠",
+    "sizeRange": {
+      "min": 0.22,
+      "max": 0.3
+    },
+    "weightRange": {
+      "min": 1.77,
+      "max": 2.4
+    }
+  },
+  {
+    "band": "1-1.8",
+    "index": 24,
+    "name": "乌达",
+    "sizeRange": {
+      "min": 0.2,
+      "max": 0.23
+    },
+    "weightRange": {
+      "min": 1.77,
+      "max": 2.28
+    }
+  },
+  {
+    "band": "1-1.8",
+    "index": 25,
+    "name": "绿耳松鼠",
+    "sizeRange": {
+      "min": 0.24,
+      "max": 0.28
+    },
+    "weightRange": {
+      "min": 1.79,
+      "max": 2.3
+    }
+  },
+  {
+    "band": "1.8-4",
+    "index": 1,
+    "name": "鲁花蕾",
+    "sizeRange": {
+      "min": 0.17,
+      "max": 0.17
+    },
+    "weightRange": {
+      "min": 1.8,
+      "max": 1.99
+    }
+  },
+  {
+    "band": "1.8-4",
+    "index": 2,
+    "name": "丢丢",
+    "sizeRange": {
+      "min": 0.17,
+      "max": 0.21
+    },
+    "weightRange": {
+      "min": 1.84,
+      "max": 2.41
+    }
+  },
+  {
+    "band": "1.8-4",
+    "index": 3,
+    "name": "波波螺",
+    "sizeRange": {
+      "min": 0.15,
+      "max": 0.16
+    },
+    "weightRange": {
+      "min": 1.89,
+      "max": 2.11
+    }
+  },
+  {
+    "band": "1.8-4",
+    "index": 4,
+    "name": "草头鸭",
+    "sizeRange": {
+      "min": 0.23,
+      "max": 0.27
+    },
+    "weightRange": {
+      "min": 1.93,
+      "max": 2.36
+    }
+  },
+  {
+    "band": "1.8-4",
+    "index": 5,
+    "name": "呆小路",
+    "sizeRange": {
+      "min": 0.3,
+      "max": 0.32
+    },
+    "weightRange": {
+      "min": 1.98,
+      "max": 2.12
+    }
+  },
+  {
+    "band": "1.8-4",
+    "index": 6,
+    "name": "小箱怪",
+    "sizeRange": {
+      "min": 0.16,
+      "max": 0.18
+    },
+    "weightRange": {
+      "min": 1.98,
+      "max": 2.51
+    }
+  },
+  {
+    "band": "1.8-4",
+    "index": 8,
+    "name": "矿晶石",
+    "sizeRange": {
+      "min": 0.28,
+      "max": 0.28
+    },
+    "weightRange": {
+      "min": 2.29,
+      "max": 2.29
+    }
+  },
+  {
+    "band": "1.8-4",
+    "index": 9,
+    "name": "多西",
+    "sizeRange": {
+      "min": 0.34,
+      "max": 0.34
+    },
+    "weightRange": {
+      "min": 2.42,
+      "max": 2.42
+    }
+  },
+  {
+    "band": "1.8-4",
+    "index": 10,
+    "name": "呼呼猪",
+    "sizeRange": {
+      "min": 0.22,
+      "max": 0.31
+    },
+    "weightRange": {
+      "min": 2.43,
+      "max": 3.52
+    }
+  },
+  {
+    "band": "1.8-4",
+    "index": 11,
+    "name": "雪娃娃",
+    "sizeRange": {
+      "min": 0.12,
+      "max": 0.17
+    },
+    "weightRange": {
+      "min": 2.45,
+      "max": 3.12
+    }
+  },
+  {
+    "band": "1.8-4",
+    "index": 12,
+    "name": "小鼠獭",
+    "sizeRange": {
+      "min": 0.17,
+      "max": 0.2
+    },
+    "weightRange": {
+      "min": 2.49,
+      "max": 2.77
+    }
+  },
+  {
+    "band": "1.8-4",
+    "index": 13,
+    "name": "古钟蛇",
+    "sizeRange": {
+      "min": 0.45,
+      "max": 0.46
+    },
+    "weightRange": {
+      "min": 2.52,
+      "max": 3.12
+    }
+  },
+  {
+    "band": "1.8-4",
+    "index": 14,
+    "name": "小甲虫",
+    "sizeRange": {
+      "min": 0.22,
+      "max": 0.23
+    },
+    "weightRange": {
+      "min": 2.61,
+      "max": 2.64
+    }
+  },
+  {
+    "band": "1.8-4",
+    "index": 15,
+    "name": "海盗虫",
+    "sizeRange": {
+      "min": 0.23,
+      "max": 0.29
+    },
+    "weightRange": {
+      "min": 2.62,
+      "max": 3.39
+    }
+  },
+  {
+    "band": "1.8-4",
+    "index": 16,
+    "name": "板板壳",
+    "sizeRange": {
+      "min": 0.23,
+      "max": 0.31
+    },
+    "weightRange": {
+      "min": 2.63,
+      "max": 4
+    }
+  },
+  {
+    "band": "1.8-4",
+    "index": 17,
+    "name": "灵狐",
+    "sizeRange": {
+      "min": 0.24,
+      "max": 0.31
+    },
+    "weightRange": {
+      "min": 2.68,
+      "max": 3.35
+    }
+  },
+  {
+    "band": "1.8-4",
+    "index": 18,
+    "name": "电咩咩",
+    "sizeRange": {
+      "min": 0.27,
+      "max": 0.28
+    },
+    "weightRange": {
+      "min": 2.8,
+      "max": 2.96
+    }
+  },
+  {
+    "band": "1.8-4",
+    "index": 19,
+    "name": "拉特",
+    "sizeRange": {
+      "min": 0.22,
+      "max": 0.25
+    },
+    "weightRange": {
+      "min": 2.93,
+      "max": 3.37
+    }
+  },
+  {
+    "band": "1.8-4",
+    "index": 20,
+    "name": "甜田螺",
+    "sizeRange": {
+      "min": 0.2,
+      "max": 0.2
+    },
+    "weightRange": {
+      "min": 3.12,
+      "max": 3.16
+    }
+  },
+  {
+    "band": "1.8-4",
+    "index": 21,
+    "name": "吸泥鸥",
+    "sizeRange": {
+      "min": 0.23,
+      "max": 0.29
+    },
+    "weightRange": {
+      "min": 3.55,
+      "max": 4.91
+    }
+  },
+  {
+    "band": "1.8-4",
+    "index": 22,
+    "name": "雪豆丁",
+    "sizeRange": {
+      "min": 0.39,
+      "max": 0.45
+    },
+    "weightRange": {
+      "min": 3.63,
+      "max": 4.31
+    }
+  },
+  {
+    "band": "1.8-4",
+    "index": 23,
+    "name": "机械方方",
+    "sizeRange": {
+      "min": 0.22,
+      "max": 0.22
+    },
+    "weightRange": {
+      "min": 3.67,
+      "max": 3.67
+    }
+  },
+  {
+    "band": "4-14",
+    "index": 1,
+    "name": "小狮鹫",
+    "sizeRange": {
+      "min": 0.31,
+      "max": 0.33
+    },
+    "weightRange": {
+      "min": 4.3,
+      "max": 4.92
+    }
+  },
+  {
+    "band": "4-14",
+    "index": 2,
+    "name": "治愈兔",
+    "sizeRange": {
+      "min": 0.25,
+      "max": 0.34
+    },
+    "weightRange": {
+      "min": 4.33,
+      "max": 5.71
+    }
+  },
+  {
+    "band": "4-14",
+    "index": 3,
+    "name": "模模",
+    "sizeRange": {
+      "min": 0.17,
+      "max": 0.19
+    },
+    "weightRange": {
+      "min": 4.4,
+      "max": 5.3
+    }
+  },
+  {
+    "band": "4-14",
+    "index": 4,
+    "name": "护主犬",
+    "sizeRange": {
+      "min": 0.27,
+      "max": 0.37
+    },
+    "weightRange": {
+      "min": 4.85,
+      "max": 6.75
+    }
+  },
+  {
+    "band": "4-14",
+    "index": 5,
+    "name": "锥尾羊",
+    "sizeRange": {
+      "min": 0.26,
+      "max": 0.31
+    },
+    "weightRange": {
+      "min": 4.92,
+      "max": 6.05
+    }
+  },
+  {
+    "band": "4-14",
+    "index": 6,
+    "name": "鸭吉吉",
+    "sizeRange": {
+      "min": 0.3,
+      "max": 0.39
+    },
+    "weightRange": {
+      "min": 5.59,
+      "max": 6.94
+    }
+  },
+  {
+    "band": "4-14",
+    "index": 7,
+    "name": "多多",
+    "sizeRange": {
+      "min": 0.21,
+      "max": 0.25
+    },
+    "weightRange": {
+      "min": 5.6,
+      "max": 6.84
+    }
+  },
+  {
+    "band": "4-14",
+    "index": 8,
+    "name": "风铃铃",
+    "sizeRange": {
+      "min": 0.2,
+      "max": 0.24
+    },
+    "weightRange": {
+      "min": 5.63,
+      "max": 6.45
+    }
+  },
+  {
+    "band": "4-14",
+    "index": 9,
+    "name": "胆小鳄鱼",
+    "sizeRange": {
+      "min": 0.33,
+      "max": 0.39
+    },
+    "weightRange": {
+      "min": 6.76,
+      "max": 8.94
+    }
+  },
+  {
+    "band": "4-14",
+    "index": 10,
+    "name": "小怂猫",
+    "sizeRange": {
+      "min": 0.25,
+      "max": 0.35
+    },
+    "weightRange": {
+      "min": 6.86,
+      "max": 8.93
+    }
+  },
+  {
+    "band": "4-14",
+    "index": 11,
+    "name": "白发懒人",
+    "sizeRange": {
+      "min": 0.31,
+      "max": 0.43
+    },
+    "weightRange": {
+      "min": 7.03,
+      "max": 9.31
+    }
+  },
+  {
+    "band": "4-14",
+    "index": 12,
+    "name": "布是石",
+    "sizeRange": {
+      "min": 0.18,
+      "max": 0.25
+    },
+    "weightRange": {
+      "min": 7.1,
+      "max": 12.51
+    }
+  },
+  {
+    "band": "4-14",
+    "index": 13,
+    "name": "火尾瓦特",
+    "sizeRange": {
+      "min": 0.31,
+      "max": 0.38
+    },
+    "weightRange": {
+      "min": 7.14,
+      "max": 8.34
+    }
+  },
+  {
+    "band": "4-14",
+    "index": 14,
+    "name": "石肤蜥",
+    "sizeRange": {
+      "min": 0.21,
+      "max": 0.29
+    },
+    "weightRange": {
+      "min": 7.67,
+      "max": 13.4
+    }
+  },
+  {
+    "band": "4-14",
+    "index": 15,
+    "name": "大头骨龙",
+    "sizeRange": {
+      "min": 0.37,
+      "max": 0.4
+    },
+    "weightRange": {
+      "min": 8.3,
+      "max": 11.41
+    }
+  },
+  {
+    "band": "4-14",
+    "index": 16,
+    "name": "伊雷龙",
+    "sizeRange": {
+      "min": 0.31,
+      "max": 0.36
+    },
+    "weightRange": {
+      "min": 9.59,
+      "max": 12.26
+    }
+  },
+  {
+    "band": "4-14",
+    "index": 17,
+    "name": "小星光",
+    "sizeRange": {
+      "min": 0.33,
+      "max": 0.42
+    },
+    "weightRange": {
+      "min": 9.62,
+      "max": 12.93
+    }
+  },
+  {
+    "band": "4-14",
+    "index": 18,
+    "name": "权杖-II",
+    "sizeRange": {
+      "min": 0.19,
+      "max": 0.23
+    },
+    "weightRange": {
+      "min": 9.99,
+      "max": 13.9
+    }
+  },
+  {
+    "band": "4-14",
+    "index": 19,
+    "name": "幽影树",
+    "sizeRange": {
+      "min": 0.28,
+      "max": 0.36
+    },
+    "weightRange": {
+      "min": 10.73,
+      "max": 14.03
+    }
+  },
+  {
+    "band": "4-14",
+    "index": 20,
+    "name": "水母",
+    "sizeRange": {
+      "min": 0.21,
+      "max": 0.28
+    },
+    "weightRange": {
+      "min": 11.2,
+      "max": 14.24
+    }
+  },
+  {
+    "band": "4-14",
+    "index": 21,
+    "name": "电动长颈鹿",
+    "sizeRange": {
+      "min": 0.33,
+      "max": 0.42
+    },
+    "weightRange": {
+      "min": 11.58,
+      "max": 14.86
+    }
+  },
+  {
+    "band": "14-以上",
+    "index": 1,
+    "name": "提塔",
+    "sizeRange": {
+      "min": 0.28,
+      "max": 0.31
+    },
+    "weightRange": {
+      "min": 14.1,
+      "max": 17.03
+    }
+  },
+  {
+    "band": "14-以上",
+    "index": 2,
+    "name": "小独角兽",
+    "sizeRange": {
+      "min": 0.42,
+      "max": 0.58
+    },
+    "weightRange": {
+      "min": 14.55,
+      "max": 21.84
+    }
+  },
+  {
+    "band": "14-以上",
+    "index": 3,
+    "name": "里拉蟹",
+    "sizeRange": {
+      "min": 0.41,
+      "max": 0.46
+    },
+    "weightRange": {
+      "min": 14.65,
+      "max": 19.2
+    }
+  },
+  {
+    "band": "14-以上",
+    "index": 4,
+    "name": "阿米亚特",
+    "sizeRange": {
+      "min": 0.28,
+      "max": 0.46
+    },
+    "weightRange": {
+      "min": 16.22,
+      "max": 19.15
+    }
+  },
+  {
+    "band": "14-以上",
+    "index": 5,
+    "name": "嘟嘟煲",
+    "sizeRange": {
+      "min": 0.28,
+      "max": 0.33
+    },
+    "weightRange": {
+      "min": 17.45,
+      "max": 22.31
+    }
+  },
+  {
+    "band": "14-以上",
+    "index": 6,
+    "name": "锤头鹤",
+    "sizeRange": {
+      "min": 0.47,
+      "max": 0.63
+    },
+    "weightRange": {
+      "min": 18.58,
+      "max": 25.36
+    }
+  },
+  {
+    "band": "14-以上",
+    "index": 7,
+    "name": "石石",
+    "sizeRange": {
+      "min": 0.17,
+      "max": 0.2
+    },
+    "weightRange": {
+      "min": 24.53,
+      "max": 27.59
+    }
+  },
+  {
+    "band": "14-以上",
+    "index": 8,
+    "name": "海豹战士",
+    "sizeRange": {
+      "min": 0.28,
+      "max": 0.38
+    },
+    "weightRange": {
+      "min": 25.67,
+      "max": 34.48
+    }
+  },
+  {
+    "band": "14-以上",
+    "index": 9,
+    "name": "恶魔狼",
+    "sizeRange": {
+      "min": 0.52,
+      "max": 0.72
+    },
+    "weightRange": {
+      "min": 26,
+      "max": 36
+    }
+  },
+  {
+    "band": "14-以上",
+    "index": 10,
+    "name": "记忆石",
+    "sizeRange": {
+      "min": 0.43,
+      "max": 0.58
+    },
+    "weightRange": {
+      "min": 33.73,
+      "max": 44.33
+    }
+  }
+]
