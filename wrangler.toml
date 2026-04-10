@@ -1,0 +1,7 @@
+name = "luoke-query-api"
+main = "worker.js"
+compatibility_date = "2024-04-10"
+
+# Optional: configure your routing or domains if needed when deploying
+# [env.production]
+# workers_dev = true

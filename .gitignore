@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Cloudflare / Build
+.wrangler/
+data.json
+frontend/dist/
+
+# Env
+.env
+.env.local
+frontend/.env
+frontend/.env.local
+
+# OS
+.DS_Store
+Thumbs.db

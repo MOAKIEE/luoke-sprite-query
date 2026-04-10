@@ -1,0 +1,16 @@
+{
+  "name": "luoke-query-service",
+  "version": "1.0.0",
+  "description": "Backend-only query service for image_text_index.md",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "build": "node scripts/build-data.js",
+    "deploy": "npm run build ; wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.81.1"
+  },
+  "type": "module"
+}
