@@ -1,16 +1,23 @@
 {
-  "name": "luoke-query-service",
-  "version": "1.0.0",
-  "description": "Backend-only query service for image_text_index.md",
-  "main": "server.js",
+  "name": "luoke-frontend",
   "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "wrangler dev",
-    "build": "node scripts/build-data.js",
-    "deploy": "npm run build ; wrangler deploy"
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "wrangler": "^4.81.1"
-  },
-  "type": "module"
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1"
+  }
 }

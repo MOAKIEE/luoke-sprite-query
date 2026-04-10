@@ -1,9 +1,14 @@
-import { useState, FormEvent } from 'react';
+import { useState, FormEvent, useMemo } from 'react';
+import rawItems from './data.json';
+import { buildMatcher, Item } from './matcher';
+
+// 强制转换 JSON 数据类型
+const items = rawItems as Item[];
 
 interface ResultItem {
   name: string;
-  sizeRange: [number, number];
-  weightRange: [number, number];
+  sizeRange: { min: number; max: number };
+  weightRange: { min: number; max: number };
   score: number;
   band: string;
   index: number;
@@ -19,8 +24,6 @@ interface QueryResponse {
   similar: ResultItem[];
 }
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000';
-
 function App() {
   const [size, setSize] = useState<string>('');
   const [weight, setWeight] = useState<string>('');
@@ -29,6 +32,9 @@ function App() {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
   const [results, setResults] = useState<QueryResponse | null>(null);
+
+  // 初始化查询器
+  const matcher = useMemo(() => buildMatcher(items), []);
 
   const handleFillExample = () => {
     setSize('0.3');
@@ -40,7 +46,6 @@ function App() {
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     
-    // Validation
     const sizeNum = Number(size);
     const weightNum = Number(weight);
     const limitNum = limit ? Number(limit) : 5;
@@ -64,33 +69,26 @@ function App() {
     setIsLoading(true);
     setResults(null);
 
-    try {
-      const url = new URL(`${API_BASE_URL}/api/query`);
-      url.searchParams.append('size', sizeNum.toString());
-      url.searchParams.append('weight', weightNum.toString());
-      if (limitNum) {
-        url.searchParams.append('limit', limitNum.toString());
+    // 模拟网络延迟让页面动画有过渡效果
+    setTimeout(() => {
+      try {
+        const queryResult = matcher.query({ size: sizeNum, weight: weightNum, limit: limitNum });
+        setResults({
+          query: { size: sizeNum, weight: weightNum, limit: limitNum },
+          matched: queryResult.matched,
+          similar: queryResult.similar
+        });
+      } catch (err) {
+        setError(err instanceof Error ? err.message : '查询发生内部错误。');
+      } finally {
+        setIsLoading(false);
       }
-
-      const response = await fetch(url.toString());
-      
-      if (!response.ok) {
-        const errorData = await response.json().catch(() => null);
-        throw new Error(errorData?.error || `请求失败 (${response.status})`);
-      }
-
-      const data: QueryResponse = await response.json();
-      setResults(data);
-    } catch (err) {
-      setError(err instanceof Error ? err.message : '网络请求发生未知错误，请检查后端服务是否启动。');
-    } finally {
-      setIsLoading(false);
-    }
+    }, 300);
   };
 
-  const formatRange = (range: [number, number]) => {
-    if (range[0] === range[1]) return range[0].toString();
-    return `${range[0]} - ${range[1]}`;
+  const formatRange = (range: { min: number; max: number }) => {
+    if (range.min === range.max) return range.min.toString();
+    return `${range.min} - ${range.max}`;
   };
 
   const renderCard = (item: ResultItem, type: 'matched' | 'similar', i: number) => (
@@ -124,7 +122,7 @@ function App() {
     <main>
       <header>
         <h1>精灵查询系统</h1>
-        <p className="subtitle">基于体型和重量精准定位洛克王国精灵</p>
+        <p className="subtitle">基于体型和重量精准定位洛克王国精灵 (纯前端静态版本)</p>
       </header>
 
       <section className="search-card">
